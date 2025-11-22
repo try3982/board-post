@@ -1,4 +1,4 @@
-package com.bwj.todo.domain;
+package com.bwj.todo.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

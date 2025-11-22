@@ -1,6 +1,6 @@
 package com.bwj.todo.dto.response;
 
-import com.bwj.todo.domain.Post;
+import com.bwj.todo.entity.Post;
 
 import java.time.LocalDateTime;
 

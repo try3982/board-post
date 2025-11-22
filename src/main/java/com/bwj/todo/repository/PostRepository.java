@@ -1,6 +1,6 @@
-package com.bwj.todo.Repository;
+package com.bwj.todo.repository;
 
-import com.bwj.todo.domain.Post;
+import com.bwj.todo.entity.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

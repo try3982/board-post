@@ -1,14 +1,13 @@
 package com.bwj.todo.service;
 
-import com.bwj.todo.Repository.PostRepository;
-import com.bwj.todo.domain.Post;
+import com.bwj.todo.repository.PostRepository;
+import com.bwj.todo.entity.Post;
 import com.bwj.todo.dto.request.CreatePostRequest;
 import com.bwj.todo.dto.request.UpdatePostReqeust;
 import com.bwj.todo.dto.response.CreatePostResponse;
 import com.bwj.todo.dto.response.DeletePostResponse;
 import com.bwj.todo.dto.response.PostResponse;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
